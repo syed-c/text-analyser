@@ -1,0 +1,36 @@
+.heading{
+  height: 60vh;
+  width: 100%;
+  background-image: linear-gradient(90deg, #fff 0%, #f70 100%);
+  position: relative;
+}
+
+.heading-text{
+  position: absolute;
+  top: 40%;
+  left: 8%;
+  color: #f60;
+  font-size: 40px;
+}
+
+.subheading-text{
+  position: absolute;
+  top: 60%;
+  left: 11%;
+  font-size: 22px;
+  color: #f70;
+}
+
+
+@media only screen and (max-width: 600px) {
+
+  .heading-text {
+    font-size: 20px;
+  }
+
+  .subheading-text {
+    font-size: 12px;
+    top: 47%;
+    left: 9%;
+  }
+}

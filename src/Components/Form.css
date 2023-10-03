@@ -1,0 +1,82 @@
+.analyser-section{
+  background: #e3f9ff;
+  height: 95vh;
+  width: 100%;
+}
+
+.section-heading{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 14vh;
+  font-size: 25px;
+  font-weight: bold;
+}
+
+.text-section{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 75vh;
+  width: 100%;
+  margin-top: 12px;
+}
+
+.textarea{
+  height: 47vh;
+  width: 60vw;
+  border: none;
+  outline: none;
+  font-size: 15px;
+  box-shadow: 1px 2px 20px #f70;
+  padding: 10px 0 0 8px;
+  border-radius: 10px;
+}
+
+.buttons-section{
+  margin-top: 15px;
+  display: flex;
+  align-items: center;
+  height: 2rem;
+  justify-content: space-evenly;
+}
+
+.button{
+  border: none;
+  outline: none;
+  text-align: center;
+  font-size: 12px;
+  padding: 7px 6px;
+  border-radius: 5px;
+  background-color: #f70;
+  color: #fff;
+  box-shadow: 1px 2px 15px #f70;
+  transition: 1s ease-in;
+}
+
+.button:hover{
+  transform: translateX(-10px);
+  background-color: #e3f9ff;
+  box-shadow: 1px 2px 10px #000;
+  color: #f70;
+  font-weight: 400;
+}
+
+.info{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 16px;
+  margin-top: 1.5rem;
+}
+
+
+@media only screen and (max-width: 600px) {
+  .section-heading {
+    font-size: 17px;
+  }
+
+  .button {
+    padding: 2px 4px;
+  }
+}
